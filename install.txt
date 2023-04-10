@@ -1,0 +1,7 @@
+We can install "morgan" this is just another HTTP request logger middle ware for Node.js. It simplifies the process of logging requests to your application 
+
+We can create a seed file with data that we can write out our test with as well, if testing is required. Not sure if it is will need to check the project reqs. 
+
+We can install Babel, it is a JS compiler that is used to convert ECMAScript +2015 code into a backwards compatible version of JavaScript in current and older browsers or environments 
+
+We can install cors as well, this wil allow us to make front-end client calls to the back-end server. We can also use parcel-bundler, this supports JS and can handle all file types like images and fonts. 
