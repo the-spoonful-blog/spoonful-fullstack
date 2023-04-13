@@ -1,7 +1,7 @@
 const { sequelize } = require("../../db")
 const { Sequelize } = require("sequelize")
 
-const Post = new Sequelize({
+const Post = sequelize.define( "post" , {
   image: Sequelize.STRING,
   postBody: Sequelize.TEXT
 });
