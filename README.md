@@ -6,7 +6,7 @@ This is a full-stack blog application post and review different foods and recipe
 
 1. <code> 'npm install' </code>
 2. <code> 'npm run seed' </code>
-3. <code> 'npm run server' </code>
+3. <code> 'npm start' </code>
 
 
 ## Collaborators 
