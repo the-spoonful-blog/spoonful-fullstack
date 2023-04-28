@@ -3,7 +3,7 @@ import { PostList } from "./PostsList";
 import apiURL from "../api";
 
 export const App = () => {
-  const [posts, setPost] = useState([]);
+  const [posts, s] = useState([]);
   const [isSinglePageView, setSinglePageView] = useState("false");
   const [postObjectTitle, setPostObjectTitle] = useState('');
   const [isAddingPost, setIsAddingPost] = useState('');
@@ -13,7 +13,7 @@ export const App = () => {
       const response = await fetch(`${apiURL}/posts`);
       const postsData = await response.json();
 
-      setPost(postsData);
+      setPosts(postsData);
     } catch (error) {
       console.log("Oh no! An error has occured.", error);
     }
@@ -25,3 +25,4 @@ useEffect(() => {
 }, []);
 
 // Insert return statement here to show JSX and how home page will look 
+
