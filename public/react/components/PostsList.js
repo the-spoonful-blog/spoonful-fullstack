@@ -1,6 +1,8 @@
 import React from "react";
 import { Post } from "./Post";
 
+
+// This is the Post Li
 export const PostList = ({ posts, isSinglePageView, setSinglePageView, postObjectTitle, setPostObjectTitle }) => {
   return (
     <>
