@@ -1,5 +1,6 @@
 import React from "react";
 import apiURL from "../api";
+import { useState } from "react";
 
 // Function and state to handle creating the new post
 export function Form({
@@ -47,7 +48,7 @@ export function Form({
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <h2> Create a New Post</h2>
+        <h3> Create a New Post</h3>
         <input
           value={newPost.title}
           onChange={(ev) => setNewPost({ ...newPost, title: ev.target.value })}

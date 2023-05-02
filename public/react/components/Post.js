@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const Post = ({post, isSinglePageView, setSinglePageView, setItemObjectTitle}) => {
+export const Post = ({post, isSinglePageView, setSinglePageView, setPostObjectTitle}) => {
 
   const handlePostClick = () => {
     setSinglePageView(!isSinglePageView);
-    setItemObjectTitle(post.title);
+    setPostObjectTitle(post.title);
   }
 
   const handleBackButton = async () => {
