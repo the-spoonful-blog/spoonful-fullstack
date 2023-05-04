@@ -20,7 +20,7 @@ describe("User, Post models", () => {
     // TODO - test creating a post
     const post = await Post.create(posts[0]);
     expect(post.image).toBe("https://logo.com");
-    expect(post.postBody).toBe(
+    expect(post.body).toBe(
       "This cheesy double patty hamburger is so juicy I want to eat three of them. Totally Recommend. 10/10"
     );
   });
@@ -37,7 +37,7 @@ describe("User, Post models", () => {
     // TODO - test finding a post
     const foundPost = await Post.findAll();
     expect(foundPost[0].image).toBe("https://logo.com");
-    expect(foundPost[0].postBody).toBe(
+    expect(foundPost[0].body).toBe(
       "This cheesy double patty hamburger is so juicy I want to eat three of them. Totally Recommend. 10/10"
     );
   });
@@ -60,10 +60,10 @@ test("can update a Post", async () => {
   const post = await Post.findAll();
   const updatedPost = await post[0].update({
     image: "https://pics.com",
-    postBody: "This is an updated post",
+    body: "This is an updated post",
   });
   expect(updatedPost.image).toBe("https://pics.com");
-  expect(updatedPost.postBody).toBe("This is an updated post");
+  expect(updatedPost.body).toBe("This is an updated post");
 });
 
 // Delete User & Post
@@ -80,5 +80,5 @@ test("can delete a Post", async () => {
   const foundPost = await Post.findAll();
   const destroyPost = await foundPost[0].destroy();
   expect(destroyPost.image).toBe("https://pics.com");
-  expect(destroyPost.postBody).toBe("This is an updated post");
+  expect(destroyPost.body).toBe("This is an updated post");
 });
