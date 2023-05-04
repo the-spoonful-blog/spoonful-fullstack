@@ -25,10 +25,21 @@ This app was brought to you by the Spoonful crew:
 * <i>Addy Rodriguez</i>
 * <i>Krystal Lopez</i>
 
+This application was built through multiple collaborative efforts. Krystal built the skeleton or the backend setting up the models and application middle so that HTTP requests can be parsed, Deja created the routes and Addy created the seed file, seed data, and tests so that we can make sure that all routes are working approprioately. 
+
+The front-end was built using React. We worked together to create the front-end as we wanted to create a warm and aesthetically pleasing UI. Krystal built out the components that there needed to set up the application initially. Deja created the styling and helped with the design and color scheme. Addy worked on the navigation bar and also assisted with the styling as well. Together, we collaborated on how we wanted the logo and the theme that we wanted for our app. 
+
+Overall this app was built using a pair-programming method, with each member taking turns as the navigator and the driver. 
+
+We hop you enjoy our application!
+
+
 ## Resources
+
+Below are some of the resources that we used to helo build out our fullstack application: 
 
 * [Building a RESTful API with Node.js](https://www.youtube.com/playlist?list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q)
 * [Excalidraw](https://excalidraw.com/)
 * [ReactJS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
 * [Make Your Own Logo (LOGO)](https://app.logo.com/business-name/)
-* [Bootstrap]()
+* [Getting Started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
