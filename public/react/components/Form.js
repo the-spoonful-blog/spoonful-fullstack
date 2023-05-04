@@ -57,7 +57,8 @@ export function Form({
           name="titles"
           required
         ></input>
-         <input
+        <br></br>
+        <input
           value={newPost.image}
           onChange={(ev) => setNewPost({ ...newPost, image: ev.target.value })}
           placeholder="Insert your image URL here..."
@@ -65,6 +66,7 @@ export function Form({
           name="image"
           required
         ></input>
+        <br></br>
         <input
           value={newPost.body}
           onChange={(ev) => setNewPost({ ...newPost, body: ev.target.value })}
@@ -73,6 +75,7 @@ export function Form({
           name="body"
           required
         ></input>
+        <br></br>
         <button type="submit">Add New Post</button>
       </form>
     </>
