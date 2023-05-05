@@ -36,7 +36,7 @@ We hop you enjoy our application!
 
 ## Resources
 
-Below are some of the resources that we used to helo build out our fullstack application: 
+Below are some of the resources that we used to help build out our fullstack application: 
 
 * [Building a RESTful API with Node.js](https://www.youtube.com/playlist?list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q)
 * [Excalidraw](https://excalidraw.com/)
