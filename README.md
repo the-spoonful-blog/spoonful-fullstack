@@ -1,6 +1,6 @@
 <h1 align="center"><b><i>The Spoonful Blog</b></i></h1>
 <p>
-<img width=800 src="logos/spoonful-logo.png">
+<img width=800 src="logos/logo5.png">
 </p>
 
 This is a full-stack blog application post and review different foods and recipes! 
@@ -25,18 +25,18 @@ This app was brought to you by the Spoonful crew:
 * <i>Addy Rodriguez</i>
 * <i>Krystal Lopez</i>
 
-This application was built through multiple collaborative efforts. Krystal built the skeleton or the backend setting up the models and application middle so that HTTP requests can be parsed, Deja created the routes and Addy created the seed file, seed data, and tests so that we can make sure that all routes are working approprioately. 
+This application was built through multiple collaborative efforts. Krystal built the skeleton or the backend setting up the models and application middleware so that HTTP requests can be parsed properly, Deja created the routes and Addy created the seed file, seed data, as well as the tests so that we can make sure that all routes are working approprioately. 
 
-The front-end was built using React. We worked together to create the front-end as we wanted to create a warm and aesthetically pleasing UI. Krystal built out the components that there needed to set up the application initially. Deja created the styling and helped with the design and color scheme. Addy worked on the navigation bar and also assisted with the styling as well. Together, we collaborated on how we wanted the logo and the theme that we wanted for our app. 
+The front-end was built using React. We worked together to create the front-end as we wanted to create a warm and aesthetically pleasing UI. Krystal built out the components that there needed to set up the application initially. Deja created the styling and helped with the design and color scheme. Addy worked on the navigation bar and also assisted with the styling as well. Together, we collaborated on how we wanted the logo to look as well as the theme that we wanted for our app. 
 
-Overall this app was built using a pair-programming method, with each member taking turns as the navigator and the driver. 
+Overall this app was built using a pair-programming method, with each member taking turns as the navigator and the driver. Each member of this team contributed equally and creatively. 
 
-We hop you enjoy our application!
+We hope you enjoy our application!
 
 
 ## Resources
 
-Below are some of the resources that we used to help build out our fullstack application: 
+Below are some of the resources that we used to help build our fullstack application: 
 
 * [Building a RESTful API with Node.js](https://www.youtube.com/playlist?list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q)
 * [Excalidraw](https://excalidraw.com/)
