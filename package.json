@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --verbose --coverage=true",
     "test:report": "jest --coverage=true",
-    "start-client-dev": "parcel public/index.html --open",
+    "start-client-dev": "parcel public/index.html",
     "start": "node server/seed.js && node server.js",
     "start-api": "nodemon server.js",
     "seed": "node server/seed.js"
