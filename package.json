@@ -30,10 +30,11 @@
     "morgan": "^1.10.0",
     "parcel-bundler": "^1.12.5",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
     "sequelize": "^6.31.0",
-    "sqlite": "^4.1.2",
-    "sqlite3": "^5.1.4"
+    "sqlite": "^4.2.0",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "babel-jest": "^27.1.0"

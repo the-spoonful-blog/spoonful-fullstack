@@ -2,8 +2,11 @@ import React, { useState, useEffect } from "react";
 import { PostList } from "./PostsList";
 import { Form } from "./Form";
 
+
 // Imports and prepend the api url to any fetch calls 
 import apiURL from "../api";
+import Navigation from "./Navigation";
+
 
 export const App = () => {
   const [posts, setPosts] = useState([]);
@@ -30,7 +33,7 @@ export const App = () => {
 
   return (
     <>
-      {/* Here is where we would put the code for the nav bar and it's styling */}
+      <Navigation/>{/* Here is where we would put the code for the nav bar and it's styling */}
       <main>
         {/* This is the post list so that all posts can seen on the home page  */}
         <PostList
