@@ -18,7 +18,7 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         # the node version for the setup-node action
-        node-version: 19.x
+        node-version: 16.x
     # Install packages and run tests
     - run: npm ci
     - run: npm test
