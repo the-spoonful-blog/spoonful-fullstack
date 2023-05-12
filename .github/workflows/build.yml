@@ -15,6 +15,7 @@ jobs:
         with:
           node-version: 19.x
       - name: Seed DB
+        run: npm install
         run: npm run seed
 
 
