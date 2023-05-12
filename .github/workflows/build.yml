@@ -14,9 +14,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 19.x
-      - name: Seed DB
-        run: npm install
-        run: npm run seed
 
 
   deploy:
