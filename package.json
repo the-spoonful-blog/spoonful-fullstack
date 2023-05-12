@@ -7,7 +7,7 @@
     "test": "jest --verbose --coverage=true",
     "test:report": "jest --coverage=true",
     "start-client-dev": "parcel public/index.html --open",
-    "start": "node server/seed.js && node server.js",
+    "start": "node server/seed.js && node server.js && parcel build public/index.html ",
     "start-api": "nodemon server.js",
     "seed": "node server/seed.js"
   },
