@@ -11,6 +11,7 @@ function Navigation() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Posts</Nav.Link>
+            <Nav.Link href="#features">Explore</Nav.Link>
             <Nav.Link href="#features">About Us</Nav.Link>
           </Nav>
       </Navbar>
