@@ -1,12 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { PostList } from "./PostsList";
+import { Form } from "./Form";
+
+
+// Imports and prepend the api url to any fetch calls 
 import apiURL from "../api";
+import Navigation from "./Navigation";
+
 
 export const App = () => {
   const [posts, setPosts] = useState([]);
-  const [isSinglePageView, setSinglePageView] = useState("false");
-  const [postObjectTitle, setPostObjectTitle] = useState("");
-  const [isAddingPost, setIsAddingPost] = useState("");
+  const [isSinglePageView, setSinglePageView] = useState(false);
+  const [postObjectTitle, setPostObjectTitle] = useState('');
+  const [isAddingPost, setIsAddingPost] = useState('');
 
   async function fetchPosts() {
     try {
@@ -27,7 +33,7 @@ export const App = () => {
 
   return (
     <>
-      {/* Here is where we would put the code for the nav bar and it's styling */}
+      <Navigation/>{/* Here is where we would put the code for the nav bar and it's styling */}
       <main>
         {/* This is the post list so that all posts can seen on the home page  */}
         <PostList
@@ -40,6 +46,14 @@ export const App = () => {
       </main>
 
       {/* Here is where the form component will go to create a new post */}
+
+      <Form
+        isAddingPost={isAddingPost}
+        setIsAddingPost={setIsAddingPost}
+        items={posts}
+        setItems={setPosts}
+        fetchPosts={fetchPosts}
+      />
     </>
   );
 };
