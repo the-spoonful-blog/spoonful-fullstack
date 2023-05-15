@@ -3,7 +3,7 @@
 <img width=800 src="logos/logo5.png">
 </p>
 
-This is a full-stack blog application post and review different foods and recipes! 
+This is a full-stack blog application post and review different foods and recipes! Rant and rave with your friends about your favorite foods. 
 
 ## Getting Started
 
@@ -29,10 +29,16 @@ This application was built through multiple collaborative efforts. Krystal built
 
 The front-end was built using React. We worked together to create the front-end as we wanted to create a warm and aesthetically pleasing UI. Krystal built out the components that there needed to set up the application initially. Deja created the styling and helped with the design and color scheme. Addy worked on the navigation bar and also assisted with the styling as well. Together, we collaborated on how we wanted the logo to look as well as the theme that we wanted for our app. 
 
-Overall this app was built using a pair-programming method, with each member taking turns as the navigator and the driver. Each member of this team contributed equally and creatively. 
+Overall this app was built using a pair-programming method, with each member taking turns as the navigator and the driver. Each member of this team contributed equally and creatively. This application was deployed using GitHub Actions and Railway. 
 
-We hope you enjoy our application!
-
+These are the wireframes that we used to help build our application:
+<div>
+<img src="Spoonful wireframe.png">
+</div>
+<br>
+<div>
+<img src="spoonful-ui-layout.png" width="800">
+</div>
 
 ## Resources
 
@@ -43,3 +49,12 @@ Below are some of the resources that we used to help build our fullstack applica
 * [ReactJS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
 * [Make Your Own Logo (LOGO)](https://app.logo.com/business-name/)
 * [Getting Started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+* [GitHub Actions](https://docs.github.com/en/actions)
+
+
+<h2 align="center" ><i><b>We hope you enjoy our application!</i></b></h2>
+
+<p>
+<img  width="800" src="thankyou.gif">
+</p>
+ 

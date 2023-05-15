@@ -31,7 +31,6 @@ export function Form({
       console.log(error);
     }
   };
-
   //Event handler on the submit button
   const handleSubmit = (ev) => {
     ev.preventDefault();
@@ -46,7 +45,7 @@ export function Form({
   // Here is where return all of the form fields 
   return (
     <>
-
+  
     </>
   )
 }

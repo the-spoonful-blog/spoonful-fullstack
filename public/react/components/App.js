@@ -29,7 +29,7 @@ export const App = () => {
     <>
       {/* Here is where we would put the code for the nav bar and it's styling */}
       <main>
-      {/* This is the post list so that all posts can seen on the home page  */}
+        {/* This is the post list so that all posts can seen on the home page  */}
         <PostList
           posts={posts}
           isSinglePageView={isSinglePageView}
