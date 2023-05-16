@@ -7,7 +7,7 @@
     "test": "jest --verbose --coverage=true",
     "test:report": "jest --coverage=true",
     "start-client-dev": "parcel public/index.html --open",
-    "start": "concurrently \"node server/seed.js && node server.js\" \"npm run client\"",
+    "start": "concurrently \"node server/seed.js && node server.js\" \"npm run start-client-dev\"",
     "start-api": "nodemon server.js",
     "seed": "node server/seed.js"
   },
