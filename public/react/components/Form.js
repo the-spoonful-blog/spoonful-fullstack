@@ -1,6 +1,7 @@
 import React from "react";
 import apiURL from "../api";
 import { useState } from "react";
+import Card from "react-bootstrap/Card";
 
 // Function and state to handle creating the new post
 export function Form({
@@ -46,37 +47,45 @@ export function Form({
   // Here is where return all of the form fields
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <h3> Create a New Post</h3>
-        <input
-          value={newPost.title}
-          onChange={(ev) => setNewPost({ ...newPost, title: ev.target.value })}
-          placeholder="Add post title here..."
-          type="text"
-          name="titles"
-          required
-        ></input>
-        <br></br>
-        <input
-          value={newPost.image}
-          onChange={(ev) => setNewPost({ ...newPost, image: ev.target.value })}
-          placeholder="Insert your image URL here..."
-          type="text"
-          name="image"
-          required
-        ></input>
-        <br></br>
-        <input
-          value={newPost.body}
-          onChange={(ev) => setNewPost({ ...newPost, body: ev.target.value })}
-          placeholder="Type your review here..."
-          type="text"
-          name="body"
-          required
-        ></input>
-        <br></br>
-        <button type="submit">Add New Post</button>
-      </form>
+      <Card style={{ color: "#000", width: "75vh" }} className="form blog-Post">
+        <form onSubmit={handleSubmit} className="form">
+          <h3> Create a New Post</h3>
+          <input
+            value={newPost.title}
+            onChange={(ev) =>
+              setNewPost({ ...newPost, title: ev.target.value })
+            }
+            placeholder="Add post title here..."
+            type="text"
+            name="titles"
+            required
+          ></input>
+          <br></br>
+          <input
+            value={newPost.image}
+            onChange={(ev) =>
+              setNewPost({ ...newPost, image: ev.target.value })
+            }
+            placeholder="Insert your image URL here..."
+            type="text"
+            name="image"
+            required
+          ></input>
+          <br></br>
+          <input
+            value={newPost.body}
+            onChange={(ev) => setNewPost({ ...newPost, body: ev.target.value })}
+            placeholder="Type your review here..."
+            type="text"
+            name="body"
+            required
+          ></input>
+          <br></br>
+          <button type="submit" className="button">
+            Add New Post
+          </button>
+        </form>
+      </Card>
     </>
   );
 }
