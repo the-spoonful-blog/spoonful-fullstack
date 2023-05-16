@@ -32,7 +32,6 @@ export function Form({
       console.log(error);
     }
   };
-
   //Event handler on the submit button
   const handleSubmit = (ev) => {
     ev.preventDefault();
