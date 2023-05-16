@@ -2,14 +2,15 @@ import React, { useState, useEffect } from "react";
 import { PostList } from "./PostsList";
 import { Form } from "./Form";
 
-// Imports and prepend the api url to any fetch calls 
+// Imports and prepend the api url to any fetch calls
 import apiURL from "../api";
 
 export const App = () => {
   const [posts, setPosts] = useState([]);
   const [isSinglePageView, setSinglePageView] = useState(false);
-  const [postObjectTitle, setPostObjectTitle] = useState('');
-  const [isAddingPost, setIsAddingPost] = useState('');
+  const [postObjectTitle, setPostObjectTitle] = useState("");
+  const [isAddingPost, setIsAddingPost] = useState("");
+  const [showForm, setshowForm] = useState(false);
 
   async function fetchPosts() {
     try {
@@ -26,6 +27,9 @@ export const App = () => {
     fetchPosts();
   }, []);
 
+  const handleFormButton = async () => {
+    setSinglePageView(!isSinglePageView);
+  };
   // Insert return statement here to show JSX and how home page will look
 
   return (
