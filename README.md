@@ -1,6 +1,6 @@
 <h1 align="center"><b><i>The Spoonful Blog</b></i></h1>
 <p>
-<img width=800 src="logos/logo5.png">
+<img width=800 src="logos/logo-color.png">
 </p>
 
 This is a full-stack blog application post and review different foods and recipes! Rant and rave with your friends about your favorite foods. 
