@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --verbose --coverage=true",
     "test:report": "jest --coverage=true",
-    "client": "parcel public/index.html --open",
+    "start-client": "parcel public/index.html --open",
     "start": "concurrently \"node server/seed.js && node server.js\" \"npm run start-client\"",
     "start-api": "nodemon server.js",
     "seed": "node server/seed.js"

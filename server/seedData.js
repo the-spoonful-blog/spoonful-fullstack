@@ -17,7 +17,7 @@ module.exports = {
   posts: [
     {
       title: "I love cheeseburgers",
-      image: "https://logo.com",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrYJG8gMULY0LvR9Q_kdl1ZDLu6zVdFDt0WclA070RPN_wamdHiE7TNuwmdBoZPRmP0h0&usqp=CAU",
       body: "This cheesy double patty hamburger is so juicy I want to eat three of them. Totally Recommend. 10/10",
     },
     {
