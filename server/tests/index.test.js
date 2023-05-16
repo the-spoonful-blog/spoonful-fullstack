@@ -19,9 +19,9 @@ describe("User, Post models", () => {
   test("can create a Post", async () => {
     // TODO - test creating a post
     const post = await Post.create(posts[0]);
-    expect(post.image).toBe("https://logo.com");
+    expect(post.image).toBe("https://iamhomesteader.com/wp-content/uploads/2022/04/birria-taco-2.jpg");
     expect(post.body).toBe(
-      "This cheesy double patty hamburger is so juicy I want to eat three of them. Totally Recommend. 10/10"
+      "I made these tacos for my family and they LOVED them! very quick and easy to make. 9.8/10"
     );
   });
 
@@ -36,9 +36,9 @@ describe("User, Post models", () => {
   test("can find a Post", async () => {
     // TODO - test finding a post
     const foundPost = await Post.findAll();
-    expect(foundPost[0].image).toBe("https://logo.com");
+    expect(foundPost[0].image).toBe("https://iamhomesteader.com/wp-content/uploads/2022/04/birria-taco-2.jpg");
     expect(foundPost[0].body).toBe(
-      "This cheesy double patty hamburger is so juicy I want to eat three of them. Totally Recommend. 10/10"
+      "I made these tacos for my family and they LOVED them! very quick and easy to make. 9.8/10"
     );
   });
 });

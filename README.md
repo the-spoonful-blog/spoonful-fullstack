@@ -1,6 +1,6 @@
 <h1 align="center"><b><i>The Spoonful Blog</b></i></h1>
 <p>
-<img width=800 src="logos/logo5.png">
+<img width=800 src="logos/logo-color.png">
 </p>
 
 This is a full-stack blog application post and review different foods and recipes! Rant and rave with your friends about your favorite foods. 
@@ -12,9 +12,8 @@ In order to install this project locally, you can use the command <code>'git clo
 Once you have cloned down the repository please follow these steps:
 
 1. In order to install all dependencies associated with the application run the following command: <code>'npm install'</code>
-2. To seed all of the associated run <code>'npm run seed'</code>
-3. To run the server locally, run  <code>'npm start'</code>
-4. To run the client-dev(GUI) environment locally, run <code>'npm run client-dev'</code>
+2. To run the server locally, seed the data, and start up the front end run  <code>'npm start'</code>
+3. To run the client-dev(GUI) environment locally, run <code>'npm run start-client'</code>
 
 
 ## Collaborators 
