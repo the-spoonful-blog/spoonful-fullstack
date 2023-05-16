@@ -23,6 +23,7 @@
   "homepage": "https://github.com/the-spoonful-blog/spoonful-fullstack#readme",
   "dependencies": {
     "babel": "^6.23.0",
+    "bootstrap": "^5.2.3",
     "concurrently": "^8.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
